@@ -1,0 +1,2 @@
+npm update
+ncu -a

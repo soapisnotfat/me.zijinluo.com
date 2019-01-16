@@ -1,0 +1,21 @@
+language: node_js
+
+dist: trusty
+
+node_js: 8
+
+before_install:
+  - pip install --user awscli
+  - export PATH=$PATH:$HOME/.local/bin
+
+install: yarn
+
+script:
+  - bash ./deploy.sh
+
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: aws s3 sync build s3://me.zijinluo.com --delete --region=us-east-2
+    on:
+      branch: master
