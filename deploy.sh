@@ -1,2 +1,2 @@
 npm i
-yarn run build
+yarn build
