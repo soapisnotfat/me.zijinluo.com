@@ -6,7 +6,7 @@ import LinkedinLink from './items/LinkedinLink';
 
 class Footer extends Component {
   render() {
-    const currentTime = new Date();
+    const currentTime = new Date(document.lastModified);
     return (
       <footer>
         <div className="row">
