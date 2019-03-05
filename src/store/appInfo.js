@@ -2,7 +2,7 @@ let info = {
   name: 'Zijin Luo',
   facebook_url: 'https://www.facebook.com/zijinluoo',
   linkedin_url: 'https://www.linkedin.com/in/zijinluo/',
-  github_url: 'https://github.com/icpm',
+  github_url: 'https://github.zijinluo.com',
   resume_url: 'http://resume.zijinluo.com',
   avatar_url: 'https://avatars0.githubusercontent.com/u/23178311?s=460&v=4',
   contact_email: 'zijinluo@gatech.edu',
@@ -26,9 +26,14 @@ let info = {
   ],
   experience: [
     {
+      name: 'Facebook',
+      description: 'SWE Intern',
+      time: 'May 2019 - Aug 2019'
+    },
+    {
       name: 'Entertainment Intelligence Lab',
       description: 'research on CV & ML',
-      time: 'Oct 2017 - Present'
+      time: 'Oct 2017 - May 2019 (expected)'
     },
     {
       name: 'IBM Watson&Cloud Platform',
