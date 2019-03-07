@@ -18,6 +18,10 @@ class App extends Component {
             path="/resume"
             component={() => (window.location = info.resume_url)}
           />
+          <Route
+            path="/project"
+            component={() => (window.location = info.project_url)}
+          />
           <Route path="" component={NotFound} />
         </Switch>
       </div>

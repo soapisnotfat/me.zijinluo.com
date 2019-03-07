@@ -11,7 +11,7 @@ class NotFound extends Component {
     return (
       <div className="error-container">
         <h1>404</h1>
-        <h3>Private Access Denied</h3>
+        <h3>Your Access Is Denied</h3>
         <p className="return">
           Take me back to <Link to="/">mE.zIjInLuO.cOm</Link>
         </p>

@@ -4,6 +4,7 @@ let info = {
   linkedin_url: 'https://www.linkedin.com/in/zijinluo/',
   github_url: 'https://github.zijinluo.com',
   resume_url: 'http://resume.zijinluo.com',
+  project_url: 'http://blog.zijin.dev',
   avatar_url: 'https://avatars0.githubusercontent.com/u/23178311?s=460&v=4',
   contact_email: 'zijinluo@gatech.edu',
   description: `I'm a third-year undergraduate CS student at Georgia Tech, a researcher in computer vision and machine learning fields, and a software developing engineer of Web, ML Algorithms, and Software Tools.`,

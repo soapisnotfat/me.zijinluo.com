@@ -50,7 +50,7 @@ class About extends Component {
   render() {
     return (
       <div>
-        <section className='about'>
+        <section className="about">
           <Particles
             params={{
               particles: {
@@ -97,7 +97,9 @@ class About extends Component {
                   <h2>Get In Touch</h2>
                   <p className="address">
                     <a href={`mailto:${info.contact_email}`}>
-                      {info.contact_email}
+                      {info.contact_email
+                        .replace('@', ' [at] ')
+                        .replace('.', ' [dot] ')}
                     </a>
                   </p>
                 </div>
@@ -119,7 +121,7 @@ class About extends Component {
           </div>
         </section>
 
-        <div className='experience'>
+        <div className="experience">
           <div className="row education">
             <div className="three columns header-col">
               <h1>

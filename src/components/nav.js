@@ -15,6 +15,9 @@ class Nav extends Component {
           <li>
             <a href="/resume">Resume</a>
           </li>
+          <li>
+            <a href="/project">{`Project&Blog`}</a>
+          </li>
         </ul>
       </nav>
     );

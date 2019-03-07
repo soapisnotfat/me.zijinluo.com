@@ -9,12 +9,13 @@
   "version": "0.1.0",
   "dependencies": {
     "npm-run-all": "^4.1.5",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
     "react-particles-js": "^2.4.2",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.3",
-    "source-map-explorer": "^1.6.0"
+    "react-scripts": "^2.1.8",
+    "react-typing": "^1.0.0",
+    "source-map-explorer": "^1.7.0"
   },
   "scripts": {
     "analyze": "npm-run-all -p build analyze:explore",
