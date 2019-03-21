@@ -8,7 +8,7 @@ import './styles/default.scss';
 import './styles/layout.scss';
 import Redirect from './components/redirect';
 
-class App extends Component<{}, {}> {
+export default class App extends Component<{}, {}> {
   render() {
     return (
       <div className='App'>
@@ -33,4 +33,4 @@ class App extends Component<{}, {}> {
     );
   }
 }
-export default App;
+
