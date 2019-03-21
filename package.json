@@ -8,15 +8,20 @@
   "homepage": "https://me.zijinluo.com",
   "version": "0.1.0",
   "dependencies": {
+    "@types/node": "11.11.4",
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.3",
+    "@types/react-router-dom": "^4.3.1",
     "node-sass": "^4.11.0",
     "npm-run-all": "^4.1.5",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-particles-js": "^2.4.2",
-    "react-router-dom": "^4.3.1",
+    "react-particles-js": "^2.5.1",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "^2.1.8",
     "react-typing": "^1.0.0",
-    "source-map-explorer": "^1.7.0"
+    "source-map-explorer": "^1.8.0",
+    "typescript": "3.3.4000"
   },
   "scripts": {
     "analyze": "npm-run-all -p build analyze:explore",

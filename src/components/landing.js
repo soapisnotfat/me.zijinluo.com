@@ -12,17 +12,17 @@ class Landing extends Component {
     return (
       <header>
         <Nav />
-        <div className="row banner">
-          <img className="profile-pic" src={info.avatar_url} alt="" />
-          <div className="landing-text">
-            <h1 className="responsive-headline">
-              <Link to="/about">
+        <div className='row banner'>
+          <img className='profile-pic' src={info.avatar_url} alt='' />
+          <div className='landing-text'>
+            <h1 className='responsive-headline'>
+              <Link to='/about'>
                 <Typing>{`I'm ${info.name.split(' ')[0]}`}</Typing>
               </Link>
             </h1>
             <hr />
             <h3>Software Engineer · ML/CV Researcher · Web Dev</h3>
-            <ul className="social">
+            <ul className='social'>
               <li>
                 <FacebookLink />
               </li>

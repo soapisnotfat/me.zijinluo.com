@@ -3,7 +3,7 @@ import About from '../components/about';
 import Footer from '../components/footer';
 import Nav from '../components/nav';
 
-export default class Aboutpage extends Component {
+export default class Aboutpage extends Component<{}, {}> {
   render() {
     return (
       <div>
