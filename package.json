@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "dependencies": {
     "@types/node": "11.13.0",
-    "@types/react": "16.8.11",
+    "@types/react": "16.8.12",
     "@types/react-dom": "16.8.3",
     "@types/react-router-dom": "^4.3.1",
     "node-sass": "^4.11.0",
@@ -21,7 +21,7 @@
     "react-scripts": "^2.1.8",
     "react-typing": "^1.0.0",
     "source-map-explorer": "^1.8.0",
-    "typescript": "3.4.1"
+    "typescript": "3.4.2"
   },
   "scripts": {
     "analyze": "npm-run-all -p build analyze:explore",
