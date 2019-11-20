@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import { Particles } from 'react-particles-js';
 import info from '../store/appInfo';
 
@@ -97,9 +98,7 @@ class About extends Component {
                   <h2>Get In Touch</h2>
                   <p className='address'>
                     <a href={`mailto:${info.contact_email}`}>
-                      {info.contact_email
-                        .replace('@', ' [at] ')
-                        .replace('.', ' [dot] ')}
+                      {info.contact_email}
                     </a>
                   </p>
                 </div>

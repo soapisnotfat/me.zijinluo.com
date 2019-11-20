@@ -8,20 +8,20 @@
   "homepage": "https://me.zijinluo.com",
   "version": "0.1.0",
   "dependencies": {
-    "@types/node": "12.7.2",
-    "@types/react": "16.9.1",
-    "@types/react-dom": "16.8.5",
-    "@types/react-router-dom": "^4.3.4",
-    "node-sass": "^4.12.0",
+    "@types/node": "12.12.11",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.4",
+    "@types/react-router-dom": "^5.1.2",
+    "node-sass": "^4.13.0",
     "npm-run-all": "^4.1.5",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-particles-js": "^2.7.0",
-    "react-router-dom": "^5.0.1",
-    "react-scripts": "^3.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.2.0",
     "react-typing": "^1.0.0",
-    "source-map-explorer": "^2.0.1",
-    "typescript": "3.5.3"
+    "source-map-explorer": "^2.1.1",
+    "typescript": "3.7.2"
   },
   "scripts": {
     "analyze": "npm-run-all -p build analyze:explore",
@@ -32,7 +32,7 @@
     "serve": "serve -s build -p 3080"
   },
   "devDependencies": {
-    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react": "^7.16.0",
     "npm-run-all": "^4.1.5"
   },
   "browserslist": [

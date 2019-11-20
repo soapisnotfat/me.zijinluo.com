@@ -6,13 +6,13 @@ let info = {
   resume_url: 'http://resume.zijinluo.com',
   project_url: 'http://blog.zijin.dev',
   avatar_url: 'https://avatars0.githubusercontent.com/u/23178311?s=460&v=4',
-  contact_email: 'zijinluo@gatech.edu',
-  description: `I'm a 4th-year undergraduate CS student at Georgia Tech, a researcher in computer vision and machine learning fields, and a software developing engineer of Web, ML Algorithms, and Software Tools.`,
+  contact_email: 'this.is.zijin@gmail.com',
+  description: `I'm a software engineer at Facebook, a researcher in CV & ML, and a freelancing developer of Web, App, and ML product.`,
   education: [
     {
       name: 'Georgia Institute of Technology',
       description: 'Computer Science - Info Internetworks & Intelligence',
-      time: 'Aug 2016 - Dec 2019 (expected)'
+      time: 'Aug 2016 - Dec 2019'
     },
     {
       name: 'Bishop Alemany High School',
@@ -28,11 +28,16 @@ let info = {
   experience: [
     {
       name: 'Facebook',
+      description: 'Software Engineer',
+      time: 'Jan 2020 - Present'
+    },
+    {
+      name: 'Facebook',
       description: 'SWE Intern',
       time: 'May 2019 - Aug 2019'
     },
     {
-      name: 'Entertainment Intelligence Lab',
+      name: 'Entertainment Intelligence Lab @ Georgia Tech',
       description: 'research on CV & ML',
       time: 'Oct 2017 - May 2019 (expected)'
     },
