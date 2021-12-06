@@ -7,7 +7,7 @@ let info = {
   project_url: 'http://blog.zijin.dev',
   avatar_url: 'https://avatars0.githubusercontent.com/u/23178311?s=460&v=4',
   contact_email: 'this.is.zijin@gmail.com',
-  description: `I'm a software engineer at Facebook, a researcher in CV & ML, and a freelancing developer of Web, App, and ML product.`,
+  description: `I'm a software engineer at Meta, a researcher in CV & ML, and a developer of Web, Mobile, and ML product.`,
   education: [
     {
       name: 'Georgia Institute of Technology',
@@ -27,12 +27,12 @@ let info = {
   ],
   experience: [
     {
-      name: 'Facebook',
+      name: 'Meta Platforms',
       description: 'Software Engineer',
       time: 'Jan 2020 - Present'
     },
     {
-      name: 'Facebook',
+      name: 'Meta Platforms',
       description: 'SWE Intern',
       time: 'May 2019 - Aug 2019'
     },
@@ -46,16 +46,6 @@ let info = {
       description: 'Software Engineer Intern',
       time: 'May 2018 - Aug 2018'
     },
-    {
-      name: 'GT Bits of Good',
-      description: 'Web developing',
-      time: 'Jan 2018 - May 2018'
-    },
-    {
-      name: 'Big Data and Quantum Computing program',
-      description: 'database developing',
-      time: 'Jan 2018 - May 2018'
-    }
   ],
   testimonials: [
     {
