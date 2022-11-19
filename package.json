@@ -18,7 +18,7 @@
     "react-dom": "^17.0.2",
     "react-particles-js": "^2.7.0",
     "react-router-dom": "^6.0.2",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^5.0.1",
     "react-typing": "^1.0.0",
     "source-map-explorer": "^2.5.2",
     "typescript": "4.5.2"
