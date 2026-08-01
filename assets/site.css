@@ -191,11 +191,17 @@ a:focus-visible {
   font: 400 1.3rem/1 inherit;
 }
 
-.site-search-input:focus-visible,
+.site-search-input:focus,
+.search-close:focus,
+.search-toggle:focus {
+  outline: 0;
+}
+
 .search-close:focus-visible,
 .search-toggle:focus-visible {
-  outline: 3px solid #181816;
-  outline-offset: 2px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.3em;
 }
 
 .search-results {
@@ -302,13 +308,13 @@ h1 {
 
 .route-index,
 .contact-block,
-.empty-index {
+.thought-index {
   border-top: 1px solid #d7d7d1;
 }
 
 .route-index .section-label,
 .contact-block .section-label,
-.empty-index .section-label {
+.thought-index .section-label {
   padding-top: 1rem;
 }
 
@@ -459,26 +465,80 @@ h1 {
   font-size: 1rem;
 }
 
-.empty-index {
+.thought-index {
   grid-column: 1 / -1;
   margin-top: clamp(3rem, 8vw, 8rem);
 }
 
-.thoughts-page .empty-index {
+.thoughts-page .thought-index {
   margin-top: clamp(1rem, 2vw, 2rem);
 }
 
-.empty-row {
-  min-height: 110px;
-  display: grid;
-  grid-template-columns: 54px minmax(0, 1fr) auto;
-  align-items: center;
-  gap: 1rem;
-  border-bottom: 1px solid #d7d7d1;
+.essay-body h2,
+.essay-body h3,
+.essay-body h4,
+.essay-body h5,
+.essay-body h6 {
+  margin: 2.35em 0 0.65em;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
 }
 
-.empty-row p {
-  margin-bottom: 0;
+.essay-body h2 {
+  font-size: 1.5em;
+}
+
+.essay-body h3 {
+  font-size: 1.2em;
+}
+
+.essay-body ul,
+.essay-body ol {
+  margin: 1.25em 0 0;
+  padding-left: 1.25em;
+}
+
+.essay-body li + li {
+  margin-top: 0.35em;
+}
+
+.essay-body blockquote {
+  margin: 1.75em 0 0;
+  padding-left: 1em;
+  border-left: 2px solid #d7d7d1;
+  color: #5f5f59;
+}
+
+.essay-body pre {
+  margin: 1.75em 0 0;
+  padding: 1rem;
+  overflow-x: auto;
+  background: #f0f0ec;
+  font-size: 0.82em;
+  line-height: 1.55;
+}
+
+.essay-body code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 0.82em;
+}
+
+.essay-body :not(pre) > code {
+  padding: 0.12em 0.3em;
+  background: #f0f0ec;
+}
+
+.essay-body hr {
+  margin: 2.5em 0;
+  border: 0;
+  border-top: 1px solid #d7d7d1;
+}
+
+.essay-body img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1.5em;
 }
 
 .site-footer {
@@ -583,7 +643,7 @@ h1 {
 
   .reading-column,
   .thoughts-intro,
-  .empty-index,
+  .thought-index,
   .essay-meta,
   .essay-body,
   .back-link {
@@ -593,14 +653,6 @@ h1 {
 
   .essay-body {
     margin-top: 0;
-  }
-
-  .empty-row {
-    grid-template-columns: 36px minmax(0, 1fr);
-  }
-
-  .empty-row span:last-child {
-    grid-column: 2;
   }
 
   .site-footer {
